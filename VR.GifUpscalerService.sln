@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR.GifUpscaler.View", "VR.GifUpscaler.View\VR.GifUpscaler.View.csproj", "{A6C67F87-07EB-4C12-B982-1F36FE699D87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VR.GifUpscaler.View", "VR.GifUpscaler.View\VR.GifUpscaler.View.csproj", "{A6C67F87-07EB-4C12-B982-1F36FE699D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR.GifUpscaler.ViewModel", "VR.GifUpscaler.ViewModel\VR.GifUpscaler.ViewModel.csproj", "{C2393C18-6133-4B34-8B37-C1FB9ADE1904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR.GifUpscaler.Model", "VR.GifUpscaler.Model\VR.GifUpscaler.Model.csproj", "{3905695F-D649-4751-AFBE-75DE6B5DD214}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A6C67F87-07EB-4C12-B982-1F36FE699D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6C67F87-07EB-4C12-B982-1F36FE699D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6C67F87-07EB-4C12-B982-1F36FE699D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2393C18-6133-4B34-8B37-C1FB9ADE1904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2393C18-6133-4B34-8B37-C1FB9ADE1904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2393C18-6133-4B34-8B37-C1FB9ADE1904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2393C18-6133-4B34-8B37-C1FB9ADE1904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3905695F-D649-4751-AFBE-75DE6B5DD214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3905695F-D649-4751-AFBE-75DE6B5DD214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3905695F-D649-4751-AFBE-75DE6B5DD214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3905695F-D649-4751-AFBE-75DE6B5DD214}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
